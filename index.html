@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shelter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="nav-bar">
+            <div class="nav-top">
+                <h1><img src="./assets/heart-light.png" alt="heart" class="heart">Pet Shelter</h1>
+                <div class="top-right">
+                    <a href="#" class="text">Find a Pet</a>
+                    <a href="#" class="text">About</a>
+                    <button class="btn-donate" onclick="hide(this)">Donate</button>
+                </div>
+            </div>
+            <div class="nav-bottom">
+                <div class="dropdown-menu">
+                    <p>I'm looking for a ...</p>
+                    <img src="./assets/paw-light.png" alt="paw" class="paw"><select id="dropdown" onchange="selectOption(this)">
+                        <option>Any Pet</option>
+                        <option>Cat</option>
+                        <option>Dog</option>
+                    </select>
+                </div>
+                <div class="location">
+                    <p>in or near ...</p>
+                    <!-- the map icon wasn't provided so i used the pin icon -->
+                    <img src="./assets/pin-light.png" alt="pin" class="pin"><input type="search" name="search" placeholder="City or Zip Code" class="city">
+                </div>
+                <button class="btn-friend">Find your new best friend</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="pepper">
+                <img src="./assets/pepper.jpg" alt="pepper" class="image">
+                <div class="pepper-text">
+                    <h2>Pepper</h2>
+                    <p>Pepper is a slightly shy grey tabby, but she really loves showing her human affection.</p>
+                </div>
+                <div class="addPets">
+                    <p><span id="countValuesPepper">3 petting(s)</span></p>
+                    <button onclick="countClicksPepper()" class="btn-pets" >Pet Pepper</button>
+                </div>
+            </div>
+            <div class="bruce">
+                <img src="./assets/bruce.jpg" alt="bruce" class="image">
+                <div class="bruce-text">
+                    <h2>Bruce</h2>
+                    <p>Bruce is a loyal companion. He loves long walks and cold weather.</p>
+                </div>
+                <div class="addPets">
+                    <p><span id="countValuesBruce">5 petting(s)</span></p>
+                    <button onclick="countClicksBruce()" class="btn-pets" >Pet Bruce</button>
+                </div>
+            </div>
+            <div class="oscar">
+                <img src="./assets/oscar.jpg" alt="oscar" class="image">
+                <div class="oscar-text">
+                    <h2>Oscar</h2>
+                    <p>Oscar is bright, energetic, and firendly. He is looking for a good home.</p>
+                </div>
+                <div class="addPets">
+                    <p><span id="countValuesOscar">8 petting(s)</span></p>
+                    <button onclick="countClicksOscar()" class="btn-pets" >Pet Oscar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

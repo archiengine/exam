@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    font-family: 'Roboto', sans-serif;
+}
+.nav-bar{
+    background-color: #119B9D;
+    height: 150px;
+    padding: 10px;
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+h1{
+    color: white;
+    padding: 15px;
+    font-weight: 400;
+}
+.text{
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    justify-content: space-around;
+    padding: 0px 20px;
+}
+.nav-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+}
+.nav-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    width: 80%;
+    margin: 0px auto;
+}
+.heart{
+    height: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.btn-donate{
+    background-color: white;
+    color: #9900FF;
+    border: 2px solid #9900FF;
+    border-radius: 30px;
+    width: 150px;
+    font-size: x-large;
+    margin-right: 15px;
+    
+}
+.paw, .pin{
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: bottom;
+}
+.btn-friend{
+    background-color: #9900FF;
+    color: white;
+    width: 250px;
+    font-size: medium;
+    padding: 5px;
+    margin-right: 15px;
+    align-self: flex-end;
+    border: 2px solid black;
+    box-shadow: 4px 4px 2px black;
+}
+.city{
+    font-size: medium;
+    align-self: flex-end;
+}
+#dropdown{
+    font-size: medium;
+    width: auto;
+}
+.container{
+    width: 55%;
+    margin: 0px auto;
+}
+.pepper, .bruce, .oscar{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;    
+    margin-top: 20px;
+    align-items: center;
+    height: 200px;
+}
+.image{
+    width: 150px;
+    margin-left: 20px;
+}
+.addPets{
+    margin-right: 20px;
+}
+.btn-pets{
+    background-color: #119B9D;
+    color: white;
+    width: 130px;
+    font-size: medium;
+    margin: 10px 15px 0px 0px;
+    align-self: flex-end;
+    border: 2px solid black;
+    box-shadow: 4px 4px 2px black;
+    padding: 5px;
+}
+.pepper, .oscar{
+    background-color: #EEEEEE;
+}
+.bruce{
+    background-color: #DDDDDD;
+}
+.pepper-text, .bruce-text, .oscar-text{
+    width: 40%;
+}
+h2{
+    margin-bottom: 10px;
+}

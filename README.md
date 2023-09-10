@@ -1,2 +1,2 @@
 # html-practice
-this was my exam from web fundamentals course
+this was my exam from a web fundamentals course
